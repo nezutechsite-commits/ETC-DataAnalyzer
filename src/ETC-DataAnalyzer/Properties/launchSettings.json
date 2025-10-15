@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ETC-DataAnalyzer": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)release"
+    }
+  }
+}

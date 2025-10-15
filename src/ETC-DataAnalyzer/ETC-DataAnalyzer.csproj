@@ -8,14 +8,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
-	<OutputPath>..\..\exe\Debug</OutputPath>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
-	<OutputPath>..\..\\exe\Release</OutputPath>
-  </PropertyGroup>
 	
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.csproj" />

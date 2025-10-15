@@ -8,7 +8,7 @@ namespace ETC_DataAnalyzer.ViewModels;
 
 internal class MainWindowViewModel : IEditableObject, INotifyPropertyChanged
 {
-    private const string SettingFilePath = @"..\..\..\settings\";
+    private const string SettingFilePath = @"..\settings\";
 
     private string srcFilePath = string.Empty;
     private string dstFilePath = string.Empty;
